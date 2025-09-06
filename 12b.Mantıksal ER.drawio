@@ -1,0 +1,483 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.6">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1584" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="Kullanıcı Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="120" width="200" height="294" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value=" PK    Kullanıcı ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-32" value="" style="endArrow=none;html=1;rounded=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="294" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--2" value="          Ad&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--3" value="          Soyad" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-1" value="          Eposta" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-2" value="          Telefon" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-3" value="           Adres" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="164" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-4" value="          Doğum Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="190" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-5" value="          Hesap Durumu" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="216" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-6" value="          Kayıt Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="242" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-7" value="          Banka Hesap Bilgileri" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="268" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-33" value="İşletme Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="870" y="110" width="200" height="320" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-34" value=" PK    İşletme ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-33" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-35" value="" style="endArrow=none;html=1;rounded=0;exitX=0.152;exitY=1.165;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-33" source="1yLqXOQWXOgraNwa7AhN-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="29.999999999999545" y="241.76600000000008" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-36" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-33" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-37" value="          Ad&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-33" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-38" value="          Kayıt Türü" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-33" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-39" value="          Adres" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-33" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-40" value="          Telefon" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-33" vertex="1">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-43" value="          Hesap Durumu" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-33" vertex="1">
+          <mxGeometry y="164" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1yLqXOQWXOgraNwa7AhN-1" value="          Vergi Numarası " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="sM5AgjwdGSZlmNNiYnZc-33">
+          <mxGeometry y="190" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1yLqXOQWXOgraNwa7AhN-2" value="          E-posta " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="sM5AgjwdGSZlmNNiYnZc-33">
+          <mxGeometry y="216" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1yLqXOQWXOgraNwa7AhN-3" value="          Banka Hesap Bilgileri" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="sM5AgjwdGSZlmNNiYnZc-33">
+          <mxGeometry y="242" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1yLqXOQWXOgraNwa7AhN-5" value="          Kayıt Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="sM5AgjwdGSZlmNNiYnZc-33">
+          <mxGeometry y="268" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="1yLqXOQWXOgraNwa7AhN-6" value="          Yetkili Kişi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="sM5AgjwdGSZlmNNiYnZc-33">
+          <mxGeometry y="294" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-46" value="Ürün Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="120" width="200" height="216" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-47" value=" PK    Ürün ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-48" value="" style="endArrow=none;html=1;rounded=0;exitX=0.155;exitY=1.125;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-46" source="EeUNlLpUK5PfoPIVA07Y-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="294" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-49" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-50" value=" FK    İşletme ID&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-51" value="          İsim" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-52" value="          Kategori" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-53" value="          Son Kullanma Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-54" value="          Yükleme Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="164" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-1" value="          Fiyat" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-46" vertex="1">
+          <mxGeometry y="190" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-59" value="Kullanıcı Geri Bildirim Değerlendirme&#xa;Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="505" y="-300" width="270" height="292" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-60" value=" PK    Kullanıcı Geri Bildirim ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="50" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-61" value="" style="endArrow=none;html=1;rounded=0;exitX=0.109;exitY=0.876;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" source="sM5AgjwdGSZlmNNiYnZc-157" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30.24000000000001" y="216.83399999999983" as="sourcePoint" />
+            <mxPoint x="30" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-62" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="76" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-63" value=" FK    Kullanıcı ID&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="84" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-64" value=" FK    İşletme ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="110" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-65" value=" FK    Ürün ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="136" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-153" value="          Değerlendirme Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="162" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-154" value="          Puan" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="188" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-155" value="          Yorum" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="214" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-156" value="          Değerlendirme Türü" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="240" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-157" value="          Ek Dosyalar / Fotoğraflar" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-59" vertex="1">
+          <mxGeometry y="266" width="270" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-72" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sM5AgjwdGSZlmNNiYnZc-63" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="130" y="110" as="sourcePoint" />
+            <mxPoint x="280" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="-200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-73" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=-0.015;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.015;exitY=0.048;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="sM5AgjwdGSZlmNNiYnZc-46" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="130" as="sourcePoint" />
+            <mxPoint x="260" y="266" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-75" value="Muhasebe Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1320" y="107" width="200" height="242" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-77" value="" style="endArrow=none;html=1;rounded=0;exitX=0.148;exitY=0.929;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" source="sM5AgjwdGSZlmNNiYnZc-144" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="200" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-76" value=" PK    Muhasebe ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-78" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-79" value=" FK    İşletme ID&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-80" value=" FK    Kullanıcı ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-81" value="          Hesap Kodu " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-82" value="          Hesap Adı" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-83" value="          Açıklama" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="164" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-143" value="          Tarih&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="190" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-144" value="          Belge No" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-75" vertex="1">
+          <mxGeometry y="216" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-87" value="Sürdürebilirlik Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1320" y="610" width="200" height="190" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-88" value=" PK    Sürdürebilirlik Rapor ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-87" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-89" value="" style="endArrow=none;html=1;rounded=0;exitX=0.152;exitY=0.904;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-87" source="sM5AgjwdGSZlmNNiYnZc-160" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="200" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-90" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-87" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-161" value=" FK    İşletme ID&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-87" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-91" value="          Rapor Hazırlanma Tarihi&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-87" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-92" value="          Rapor Dosyası / Linki" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-87" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-158" value="          Karar Özeti" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-87" vertex="1">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-160" value="           Durum" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-87" vertex="1">
+          <mxGeometry y="164" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-97" value="Ürün Kampanya" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="430" width="200" height="140" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-98" value=" PK    ÜrünKampanya ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-97" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-99" value="" style="endArrow=none;html=1;rounded=0;exitX=0.145;exitY=1.062;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-97" source="sM5AgjwdGSZlmNNiYnZc-105" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="200" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-100" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-97" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-101" value="FK     Ürün ID&#xa;&#xa; " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-97" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-102" value="FK     Kampanya ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-97" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-105" value="          Açıklama" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-97" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-106" value="Kampanya Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="660" width="200" height="190" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-107" value=" PK    Kampanya ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-106" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-108" value="" style="endArrow=none;html=1;rounded=0;exitX=0.148;exitY=0.873;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-106" source="sM5AgjwdGSZlmNNiYnZc-115" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="294" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-109" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-106" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-111" value="          İsim" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-106" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-112" value="          Kategori" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-106" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-113" value="          Başlangıç Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-106" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-114" value="          Bitiş Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-106" vertex="1">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-115" value="          İndirim Oranı" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-106" vertex="1">
+          <mxGeometry y="164" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-116" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="659.6999999999999" y="336" as="sourcePoint" />
+            <mxPoint x="659.41" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-117" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.006;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sM5AgjwdGSZlmNNiYnZc-79" edge="1" target="sM5AgjwdGSZlmNNiYnZc-37">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1210" y="110" as="sourcePoint" />
+            <mxPoint x="1070" y="130" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-118" value="Sistem Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="560" y="920" width="200" height="164" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-120" value="" style="endArrow=none;html=1;rounded=0;exitX=0.145;exitY=1.201;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-118" source="sM5AgjwdGSZlmNNiYnZc-125" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="29.59999999999991" y="186.6979999999994" as="sourcePoint" />
+            <mxPoint x="30" y="26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-119" value=" PK    Sistem Kayıt ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-118" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-121" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-118" vertex="1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-122" value=" FK     Kullanıcı ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-118" vertex="1">
+          <mxGeometry y="60" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-123" value=" FK     İşletme ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-118" vertex="1">
+          <mxGeometry y="86" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-124" value="          Kayıt Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-118" vertex="1">
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-125" value="          Durum" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-118" vertex="1">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-130" value="İşletme Değerlendirme &#xa; Kayıtları" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="890" y="600" width="200" height="230" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-131" value=" PK    Değerlendirme ID" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=1;strokeColor=none;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="40" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-132" value="" style="endArrow=none;html=1;rounded=0;exitX=0.143;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" parent="sM5AgjwdGSZlmNNiYnZc-130" source="sM5AgjwdGSZlmNNiYnZc-140" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="250" as="sourcePoint" />
+            <mxPoint x="30" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-133" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="66" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-135" value="FK     İşletme ID" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="74" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-136" value="          Değerlendirme Tarihi" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="100" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-137" value="          Kaynak" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="126" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-138" value="          Rapor / Veri Referansı" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="152" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-139" value="          Değerlendirme Kriterleri " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="178" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-140" value="          Onay Durumu" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="sM5AgjwdGSZlmNNiYnZc-130" vertex="1">
+          <mxGeometry y="204" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sM5AgjwdGSZlmNNiYnZc-142" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0.442;entryY=1.061;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sM5AgjwdGSZlmNNiYnZc-140" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="760" y="939" as="sourcePoint" />
+            <mxPoint x="980" y="688" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="980" y="939" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-5" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.013;entryY=0.132;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="sM5AgjwdGSZlmNNiYnZc-33" edge="1" source="sM5AgjwdGSZlmNNiYnZc-123">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="760" y="929" as="sourcePoint" />
+            <mxPoint x="827" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="1019" />
+              <mxPoint x="830" y="152" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-6" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0.478;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sM5AgjwdGSZlmNNiYnZc-106" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="659.4100000000001" y="643" as="sourcePoint" />
+            <mxPoint x="659.4100000000001" y="570" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-7" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=0.475;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sM5AgjwdGSZlmNNiYnZc-118" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="660" y="901" as="sourcePoint" />
+            <mxPoint x="660" y="850" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-8" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;entryX=1.014;entryY=0.239;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="sM5AgjwdGSZlmNNiYnZc-64">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="960" y="110" as="sourcePoint" />
+            <mxPoint x="776" y="-290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="-184" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-9" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0;entryY=0.769;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="sM5AgjwdGSZlmNNiYnZc-161">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="1070" y="120" as="sourcePoint" />
+            <mxPoint x="1309" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="120" />
+              <mxPoint x="1240" y="360" />
+              <mxPoint x="1240" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-10" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;exitX=0.558;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.469;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1yLqXOQWXOgraNwa7AhN-6" edge="1" target="sM5AgjwdGSZlmNNiYnZc-130">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="980" y="440" as="sourcePoint" />
+            <mxPoint x="980" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-12" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=1;entryY=1.133;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.007;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sM5AgjwdGSZlmNNiYnZc-33" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="860" y="130" as="sourcePoint" />
+            <mxPoint x="760" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-13" value="" style="fontSize=12;html=1;endArrow=ERoneToMany;startArrow=ERmandOne;rounded=0;entryX=0.588;entryY=0.962;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.002;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="sM5AgjwdGSZlmNNiYnZc-122" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="352" y="1027" as="sourcePoint" />
+            <mxPoint x="160" y="414" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EeUNlLpUK5PfoPIVA07Y-14" value="" style="fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1" target="sM5AgjwdGSZlmNNiYnZc-65">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="650" y="120" as="sourcePoint" />
+            <mxPoint x="650" y="-2" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="60" />
+              <mxPoint x="420" y="60" />
+              <mxPoint x="420" y="-151" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
