@@ -17,6 +17,40 @@ Bu sistemin amacı, işletmelerin artık ürünlerini etkin şekilde yönetmesin
 
 ## 📂 Dosya ve Klasör Yapısı
 
+```
+ZeroBite/
+│── docs/
+│   ├── 01.Proje Beyanı.docx
+│   ├── 02.Fizibilite.docx
+│   ├── 03.İş Kırılımı.drawio
+│   ├── Zaman_Planlamasi/
+│   │   ├── 04.Gantt.xlsx
+│   │   ├── 05a.PERT.drawio
+│   │   └── 05b.3 Nokta Tahmini.docx
+│   ├── 06.Risk Analizi.docx
+│   ├── 07.Veri Toplama.docx
+│   ├── 08.Gereksinim Beyanı.docx
+│   ├── Diyagramlar/
+│   │   ├── 09a.Bağlam.drawio
+│   │   ├── 09b.Ebeveyn.drawio
+│   │   └── 09c.Çocuk1.drawio
+│   ├── Veri_Modelleri/
+│   │   ├── 10a.Veri Sözlüğü.xlsx
+│   │   └── 10b.Veri Depoları.xlsx
+│   ├── Karar_Modelleri/
+│   │   ├── 11a.Yapısal Dil.docx
+│   │   ├── 11b.Karar Tablosu.docx
+│   │   └── 11c.Karar Ağacı.drawio
+│   └── ER_Diyagramlari/
+│       ├── 12a.Kavramsal ER.drawio
+│       ├── 12b.Mantıksal ER.drawio
+│       └── 12c.Fiziksel ER.drawio
+│
+│── prototypes/
+│   └── 13.Arayüz Tasarımı Anasayfa.jpg
+│
+│── README.md
+```
 
 ---
 
@@ -27,15 +61,18 @@ Bu sistemin amacı, işletmelerin artık ürünlerini etkin şekilde yönetmesin
 
 - **Zaman ve Proje Yönetimi:**  
   - İş kırılım yapısı (WBS), Gantt ve PERT şemaları ile zaman planlaması yapılmıştır.  
-  - Sprint toplantıları ve görev yönetimi ile proje akışı takip edilmiştir.  
+  - 3 Nokta Tahmini ve sprint toplantıları ile proje akışı takip edilmiştir.  
 
 - **Süreç Modelleme ve Tasarım:**  
   - BPMN akışları ile iş süreçleri modellenmiştir.  
-  - Kullanıcı senaryoları ve arayüz prototipleri ile kullanıcı deneyimi test edilmiştir.  
+  - Kullanıcı senaryoları ve arayüz prototipleri ile UI/UX testleri gerçekleştirilmiştir.  
 
 - **Veri Modelleme:**  
   - Kavramsal, mantıksal ve fiziksel ER diyagramları hazırlanmıştır.  
-  - Veri mantık modeli oluşturularak sistemin veri akışı ve ilişkileri tanımlanmıştır.  
+  - Veri sözlüğü ve veri depoları ile sistemin veri yapısı tanımlanmıştır.  
+
+- **Karar ve Mantıksal Modeller:**  
+  - Yapısal dil, karar tabloları ve karar ağaçları ile mantıksal süreçler detaylandırılmıştır.  
 
 - **Kalite ve Test:**  
   - Risk analizi ve test senaryoları planlanmış, olası hatalar önceden belirlenmiştir.  
@@ -44,22 +81,10 @@ Bu sistemin amacı, işletmelerin artık ürünlerini etkin şekilde yönetmesin
 
 ## 🚀 Kullanım ve Erişim
 
-1. `docs/` klasörü altında proje belgeleri ve diyagramlar bulunmaktadır.  
-2. `prototypes/` klasörü arayüz tasarımları ve kullanıcı senaryolarını içerir.  
-3. `tests/` klasörü test planları, risk analizi ve kontrol mekanizmalarını içerir.  
+1. `docs/` klasörü altında proje belgeleri, analizler ve diyagramlar bulunmaktadır.  
+2. `prototypes/` klasörü arayüz tasarımları ve kullanıcı senaryolarını içerir.   
 
 > ⚠️ Bu proje bir yönetim ve analiz çalışmasıdır. Kod tabanı bulunmamaktadır; proje belgeleri, diyagramlar ve prototipler üzerinde çalışılabilir.
-
----
-
-## 📖 README İçeriği
-
-README dosyası, GitHub üzerinde projeyi ziyaret eden herkesin hızlıca anlayabilmesi için hazırlanmıştır:  
-
-- Projenin amacı ve kapsamı  
-- Dosya yapısı ve klasör içeriği  
-- Kullanılan yöntemler ve araçlar  
-- Nasıl erişileceği ve kullanılacağı  
 
 ---
 
@@ -72,7 +97,4 @@ Ticari kullanım veya dağıtım için izin alınması gerekmektedir.
 
 ## 📌 İletişim
 
-- Selma Adıyaman – https://www.linkedin.com/in/selma-adiyaman/
-
----
-
+- Selma Adıyaman – [LinkedIn](https://www.linkedin.com/in/selma-adiyaman/)
