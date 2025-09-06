@@ -1,0 +1,101 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="Sayfa -1" id="q6um4HqUuPupZwZkO4LI">
+    <mxGraphModel dx="1111" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xs3iWqDtst7vh00fEAnh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs3iWqDtst7vh00fEAnh-2" target="xs3iWqDtst7vh00fEAnh-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="240" />
+              <mxPoint x="520" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-2" value="Kullanıcı" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="330" y="185" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-3" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1.1.&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#d79b00;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="200" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-4" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 11px;&quot;&gt;Kullanıcı Bilgisi Girişi&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;rounded=0;" parent="xs3iWqDtst7vh00fEAnh-3" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-7" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&amp;nbsp;D1&amp;nbsp; &amp;nbsp;Kullanıcı Kayıtları&lt;/font&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];perimeterSpacing=3;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-8" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1.2.&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#d79b00;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="200" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-9" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 11px;&quot;&gt;Kullanıcı Bilgilerinin Doğrulanması&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;rounded=0;" parent="xs3iWqDtst7vh00fEAnh-8" vertex="1">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="xs3iWqDtst7vh00fEAnh-10" target="xs3iWqDtst7vh00fEAnh-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-10" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1.3.&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#d79b00;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="200" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-11" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit; font-size: 11px;&quot;&gt;Kullanıcı Kaydının Oluşturulması&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;rounded=0;" parent="xs3iWqDtst7vh00fEAnh-10" vertex="1">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-12" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;1.4.&lt;/font&gt;&lt;/font&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#d79b00;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="320" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-13" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Kayıt Onayı Gönderimi&lt;/font&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;rounded=0;" parent="xs3iWqDtst7vh00fEAnh-12" vertex="1">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="xs3iWqDtst7vh00fEAnh-11" edge="1" source="xs3iWqDtst7vh00fEAnh-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="239" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1204.72" y="270" as="sourcePoint" />
+            <mxPoint x="1204.72" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.509;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xs3iWqDtst7vh00fEAnh-13" target="xs3iWqDtst7vh00fEAnh-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="361.10000000000014" as="sourcePoint" />
+            <mxPoint x="417.1" y="285" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="381" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.192;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="xs3iWqDtst7vh00fEAnh-8" target="xs3iWqDtst7vh00fEAnh-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-24" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Kayıt Talebi&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-25" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Girilen Kullanıcı Bilgileri&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="710" y="200" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-26" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Doğrulanmış Bilgiler&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="202.5" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-27" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Kayıtlı&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 10px;&quot;&gt;Kullanıcı&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 10px;&quot;&gt;Verisi&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="170" width="85" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-28" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Kayıt Sonucu&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="280" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-29" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Başarı / Hata Mesajı&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="370" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-31" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Hata Mesajı (Doğrulama Başarısızsa)&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="310" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xs3iWqDtst7vh00fEAnh-36" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="xs3iWqDtst7vh00fEAnh-4" target="xs3iWqDtst7vh00fEAnh-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="240" as="sourcePoint" />
+            <mxPoint x="730" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
